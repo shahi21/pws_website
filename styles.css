@@ -25,8 +25,47 @@ body{
     color: #17a2b8 !important;
 }
 
-
-
+/* STYLE FOR MIDDLE CAROUSEL */
+.middle-carousel .carousel-inner {
+    display: flex;
+}
+.middle-carousel .carousel-item {
+    flex: 0 0 100%; /* Full width for the row */
+}
+.middle-carousel .carousel-item .row {
+    display: flex;
+    justify-content: center;
+}
+.middle-carousel .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+}
+.middle-carousel .col {
+    flex: 1;
+    min-width: 80px;
+}
+.middle-carousel {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+    margin-top: -100px;
+}
+.middle-carousel .carousel-control-prev, .carousel-control-next {
+    width: 8%;
+}
+.middle-carousel .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+       
+        
+        
 
 /* style for industry somethng */
 .industry-solutions .card-link {
@@ -46,6 +85,8 @@ body{
     padding: 60px 0;
     background-color: #f6f6f6;
     text-align: center;
+    
+    
 
 }
 .industry-solutions a{
@@ -125,10 +166,12 @@ body{
 
 
 /* style for section after center of execllence */
+
 .carousel-content {
     width: 100%;
     display: flex;
     justify-content: space-between;
+  
 }
 
 .carousel-image img {
@@ -571,6 +614,11 @@ position: relative;
 .social-icons .icon img:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
 
 
 
