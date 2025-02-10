@@ -132,7 +132,7 @@ body{
 }
 
 .carousel-image img {
-    max-width: 300px; /* Adjust image width as needed */
+    max-width: 300px; 
     height: auto;
 }
 
@@ -146,14 +146,14 @@ body{
     filter: invert(1); 
     
 }
-/* Move previous arrow further left */
+
 .carousel-control-prev {
-    left: -90px; /* Adjust this value as needed */
+    left: -90px; 
 }
 
-/* Move next arrow further right */
+
 .carousel-control-next {
-    right: -80px; /* Adjust this value as needed */
+    right: -80px;
 }
 
 @media (max-width: 768px) {
@@ -325,7 +325,7 @@ body{
 
 
 
-/* Responsive Styling */
+
 @media (max-width: 992px) {
     .customer-success-stories .card {
         width: 48%;
@@ -339,7 +339,7 @@ body{
 }
 
 
-/* styles for technollgy partners */
+/* styles for technology partners */
 .technology-partners{
     background-color: rgb(232, 231, 231);
     padding-top: 10px;
